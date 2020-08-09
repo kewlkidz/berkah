@@ -16,7 +16,8 @@ const yokomoData = [
         assemblyLayout: 1,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "3.0"
+        chargingRateAmps: "3.0",
+        
 
     },
     {
@@ -648,6 +649,8 @@ const yokomoData = [
         AcidFillingTemperateClimate27C: "1.260",
         chargingRateAmps: "8.0"
     }
+    
 ]
+yokomoData.map(newKey => newKey.image = "./car_battery_placeholder2.jpeg" )
 
-export default yokomoData
+export default yokomoData;
