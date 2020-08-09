@@ -88,6 +88,7 @@ const ContactForm = (props) => {
        <label htmlFor="phone">Phone no.</label>
        <input
         id="phone"
+        type="tel"
         className="form-control" 
         placeholder="Nomor telpon"
         name="phone"
