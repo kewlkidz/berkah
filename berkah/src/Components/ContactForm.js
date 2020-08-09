@@ -5,17 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const ContactForm = (props) => {
 
   const [forms, setForms] = useState({ nama: "", email: "", phone: "", pesan: "" });
- 
-//   const handleChanges = (event) => {
-
-//     const newStateObj = { ...forms, [event.target.name]: event.target.value };
-//     setForms(newStateObj);
-//   };
-
-//   const submitForm = (event) => {
-//     event.preventDefault(); 
-//     setForms({ nama: "", email: "", phone: "", pesan: "" }); 
-//   };
 
  const onNameChange = (event) => {
 	setForms({nama: event.target.value})
@@ -34,10 +23,28 @@ const ContactForm = (props) => {
   }
 
   const handleSubmit = (event) => {
+    event.preventDefault();
 
-  };
+    axios({
+        method: "POST", 
+        url:"http://localhost:3002/send", 
+        data:  forms
+      }).then((response)=>{
+        if (response.data.status === 'success'){
+          alert("Message Sent."); 
+          resetForm()
+        }else if(response.data.status === 'fail'){
+          alert("Message failed to send.")
+        }
+      })
+    }
 
   console.log("here are the forms", forms);
+
+  const resetForm = (event) => {
+    
+    setForms({nama: "", email: "", phone: "", pesan: ""})
+ }
 
   return (
 
@@ -114,37 +121,3 @@ const ContactForm = (props) => {
 };
 
 export default ContactForm;
-
-// <div className="App">
-//    <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-//     <div className="form-group">
-//         <label htmlFor="name">Name</label>
-//         <input type="text" className="form-control" value={this.state.name} onChange={this.onNameChange.bind(this)} />
-//     </div>
-//     <div className="form-group">
-//         <label htmlFor="exampleInputEmail1">Email address</label>
-//         <input type="email" className="form-control" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
-//     </div>
-//     <div className="form-group">
-//         <label htmlFor="message">Message</label>
-//         <textarea className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
-//     </div>
-//     <button type="submit" className="btn btn-primary">Submit</button>
-//     </form>
-//     </div>
-
-// onNameChange(event) {
-// 	this.setState({name: event.target.value})
-//   }
-
-//   onEmailChange(event) {
-// 	this.setState({email: event.target.value})
-//   }
-
-//   onMessageChange(event) {
-// 	this.setState({message: event.target.value})
-//   }
-
-// handleSubmit(event) {
-// }
-// }
