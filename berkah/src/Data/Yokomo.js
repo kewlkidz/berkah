@@ -653,6 +653,6 @@ const yokomoData = [
     }
     
 ]
-yokomoData.map(newKey => newKey.image= "battery.jpeg" )
+yokomoData.map(newKey => newKey.image= "../battery.jpeg" )
 
 export default yokomoData;
