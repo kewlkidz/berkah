@@ -22,22 +22,16 @@ const ContactForm = (props) => {
 	setForms({pesan: event.target.value})
   }
 
-  const handleSubmit = (event) => {
+   async const handleSubmit = (event) => {
     event.preventDefault();
 
-    axios({
-        method: "POST", 
-        url:"http://localhost:3002/send", 
-        data:  forms
-      }).then((response)=>{
-        if (response.data.status === 'success'){
-          alert("Message Sent."); 
-          resetForm()
-        }else if(response.data.status === 'fail'){
-          alert("Message failed to send.")
-        }
-      })
-    }
+    const form = await axios.post('/api/form', {
+
+        name,
+        email,
+        phone,
+        pesan
+    })
 
   console.log("here are the forms", forms);
 
