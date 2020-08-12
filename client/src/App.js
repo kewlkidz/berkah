@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import yokomoData from './Data/Yokomo';
+import MainPage from './Components/MainPage/MainPage'
 
 
 
@@ -10,14 +11,7 @@ import yokomoData from './Data/Yokomo';
 function App() {
   return (
     <div className="App">
-     
-      
- <img src = {yokomoData[4].image} alt="battery" />
-      {/* image doesnt show */}
-      {console.log(yokomoData[1].image)}
-      {/* console log shows image in each object, maybe path file isnt correct, but if you import the
-      image from the same path as whats shown in the objects and source it in the img tag, picture
-      will display; */}
+     <MainPage />
     </div>
   );
 }
