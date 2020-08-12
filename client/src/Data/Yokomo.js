@@ -18,7 +18,7 @@ const yokomoData = [
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
         chargingRateAmps: "3.0",
-       imageUrl: "/Images/battery.jpeg"
+        imageUrl: "/Images/ns40.jpg"
         
         
 
@@ -41,6 +41,7 @@ const yokomoData = [
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
         chargingRateAmps: "3.0",
+        imageUrl: "/Images/ns40.jpg"
        
 
     },
@@ -61,7 +62,8 @@ const yokomoData = [
         assemblyLayout: 1,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "3.0"
+        chargingRateAmps: "3.0",
+        imageUrl: "/Images/ns40z.jpg"
 
     },
     {
@@ -81,7 +83,8 @@ const yokomoData = [
         assemblyLayout: 2,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "3.0"
+        chargingRateAmps: "3.0",
+        imageUrl: "/Images/ns40z.jpg"
 
     },
 
@@ -102,7 +105,8 @@ const yokomoData = [
         assemblyLayout: 1,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "3.0"
+        chargingRateAmps: "3.0",
+        imageUrl: "/Images/ns40.jpg"
 
     },
 
@@ -123,7 +127,8 @@ const yokomoData = [
         assemblyLayout: 2,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "3.0"
+        chargingRateAmps: "3.0",
+        imageUrl: "/Images/ns40.jpg"
 
     },
 
@@ -144,7 +149,8 @@ const yokomoData = [
         assemblyLayout: 1,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "3.0"
+        chargingRateAmps: "3.0",
+        imageUrl: "/Images/ns60.jpg"
     },
     {
         id:8,
@@ -163,7 +169,8 @@ const yokomoData = [
         assemblyLayout: 2,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "3.5"
+        chargingRateAmps: "3.5",
+        imageUrl: "/Images/ns60.jpg"
     },
     {
         id:9,
@@ -182,7 +189,8 @@ const yokomoData = [
         assemblyLayout: 1,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "3.5"
+        chargingRateAmps: "3.5",
+        imageUrl: "/Images/n50.jpg"
     },
     {
         id:10,
@@ -201,7 +209,8 @@ const yokomoData = [
         assemblyLayout: 2,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "4.0"
+        chargingRateAmps: "4.0",
+        imageUrl: "/Images/n50.jpg"
     },
     {
         id:11,
@@ -220,7 +229,8 @@ const yokomoData = [
         assemblyLayout: 1,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "4.0"
+        chargingRateAmps: "4.0",
+        imageUrl: "/Images/n50z.jpg"
     },
     {
         id:12,
@@ -239,7 +249,8 @@ const yokomoData = [
         assemblyLayout: 2,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "4.5"
+        chargingRateAmps: "4.5",
+        imageUrl: "/Images/n50z.jpg"
     },
     {
         id:13,
@@ -258,7 +269,8 @@ const yokomoData = [
         assemblyLayout: 1,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "6.0"
+        chargingRateAmps: "6.0",
+        imageUrl: "/Images/ns70.jpg"
     },
     {
         id:14,
@@ -277,7 +289,8 @@ const yokomoData = [
         assemblyLayout: 2,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "6.0"
+        chargingRateAmps: "6.0",
+        imageUrl: "/Images/ns70.jpg"
     },
     {
         id:15,
@@ -296,7 +309,8 @@ const yokomoData = [
         assemblyLayout: 1,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "6.0"
+        chargingRateAmps: "6.0",
+        imageUrl: "/Images/n70.jpg"
     },
     {
         id:16,
@@ -315,7 +329,8 @@ const yokomoData = [
         assemblyLayout: 2,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "6.0"
+        chargingRateAmps: "6.0",
+        imageUrl: "/Images/n70.jpg"
     },
     {
         id:17,
@@ -334,7 +349,8 @@ const yokomoData = [
         assemblyLayout: 1,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "7.0"
+        chargingRateAmps: "7.0",
+        imageUrl: "/Images/n70z.jpg"
     },
     {
         id:18,
@@ -353,7 +369,8 @@ const yokomoData = [
         assemblyLayout: 2,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "7.0"
+        chargingRateAmps: "7.0",
+        imageUrl: "/Images/n70z.jpg"
     },
     {
         id:19,
@@ -372,7 +389,8 @@ const yokomoData = [
         assemblyLayout: 1,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "7.0"
+        chargingRateAmps: "7.0",
+        imageUrl: "/Images/n120.jpg"
     },
     {
         id:20,
@@ -391,7 +409,8 @@ const yokomoData = [
         assemblyLayout: 2,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "7.0"
+        chargingRateAmps: "7.0",
+        imageUrl: "/Images/n120.jpg"
     },
     {
         id:21,
@@ -410,7 +429,8 @@ const yokomoData = [
         assemblyLayout: 1,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "8.0"
+        chargingRateAmps: "8.0",
+        imageUrl: "/Images/n100.jpg"
     },
     {
         id:22,
@@ -429,7 +449,8 @@ const yokomoData = [
         assemblyLayout: 1,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "8.0"
+        chargingRateAmps: "8.0",
+        imageUrl: "/Images/n100.jpg"
     },
     {
         id:23,
@@ -448,7 +469,8 @@ const yokomoData = [
         assemblyLayout: 3,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "10.0"
+        chargingRateAmps: "10.0",
+        imageUrl: "/Images/n120.jpg"
     },
     {
         id:24,
@@ -467,7 +489,8 @@ const yokomoData = [
         assemblyLayout: 3,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "10.0"
+        chargingRateAmps: "10.0",
+        imageUrl: "/Images/n120.jpg"
     },
     {
         id:25,
@@ -486,7 +509,8 @@ const yokomoData = [
         assemblyLayout: 3,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "15.0"
+        chargingRateAmps: "15.0",
+        imageUrl: "/Images/n150.jpg"
     },
     {
         id:26,
@@ -505,7 +529,8 @@ const yokomoData = [
         assemblyLayout: 3,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "15.0"
+        chargingRateAmps: "15.0",
+        imageUrl: "/Images/n150.jpg"
     },
     {
         id:27,
@@ -524,7 +549,8 @@ const yokomoData = [
         assemblyLayout: 3,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "20.0"
+        chargingRateAmps: "20.0",
+        imageUrl: "/Images/n200.jpg"
     },
     {
         id:28,
@@ -543,7 +569,8 @@ const yokomoData = [
         assemblyLayout: 3,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "20.0"
+        chargingRateAmps: "20.0",
+        imageUrl: "/Images/n200.jpg"
     },
     {
         id:29,
@@ -561,7 +588,8 @@ const yokomoData = [
         assemblyLayout: 0,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "4.0"
+        chargingRateAmps: "4.0",
+        imageUrl: "/Images/din55530.jpg"
     },
     {
         id:30,
@@ -579,7 +607,8 @@ const yokomoData = [
         assemblyLayout: 0,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "6.0"
+        chargingRateAmps: "6.0",
+        imageUrl: "/Images/din55530.jpg"
     },
     {
         id:31,
@@ -597,7 +626,8 @@ const yokomoData = [
         assemblyLayout: 0,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "6.0"
+        chargingRateAmps: "6.0",
+        imageUrl: "/Images/din58024.jpg"
     },
     {
         id:32,
@@ -615,7 +645,8 @@ const yokomoData = [
         assemblyLayout: 0,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "8.0"
+        chargingRateAmps: "8.0",
+        imageUrl: "/Images/din58024.jpg"
     },
     {
         id:33,
@@ -633,7 +664,8 @@ const yokomoData = [
         assemblyLayout: 0,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "8.0"
+        chargingRateAmps: "8.0",
+        imageUrl: "/Images/din58024.jpg"
     },
     {
         id:34,
@@ -651,10 +683,10 @@ const yokomoData = [
         assemblyLayout: 0,
         AcidFillingTropicalClimate27C:"1.230",
         AcidFillingTemperateClimate27C: "1.260",
-        chargingRateAmps: "8.0"
+        chargingRateAmps: "8.0",
+        imageUrl: "/Images/din60038.jpg"
     }
     
 ]
-// yokomoData.map(newKey => newKey.imageUrl= "/Images/battery.jpeg" )
 
 export default yokomoData;
