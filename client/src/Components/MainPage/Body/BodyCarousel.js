@@ -20,9 +20,9 @@ const BodyCarousel = ()=>{
     return(
         <CarouselDiv>
             
-        <img src={image}></img>
-        <img src={image}></img>
-        <img src={image}></img>
+        <img src={image} alt="placeholder"></img>
+        <img src={image} alt="placeholder"></img>
+        <img src={image}alt="placeholder"></img>
         </CarouselDiv>
     )
 }
