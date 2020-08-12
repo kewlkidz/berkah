@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import image from '../../../Images/n50z.jpg'
+import image from '../../../Data/battery2.jpeg'
 
 const CarouselDiv = styled.div `
 display: flex;

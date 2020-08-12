@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import YokomoBanner from './YokomoBanner';
+import YokomoItems from './YokomoItems';
 
-const YokomoBanWrap = styled.div `
+const YokomoWrap = styled.div `
 display: flex;
 justify-content:center;
 flex-direction: column;
@@ -11,9 +12,10 @@ align-items: center;
 
 const YokomoBody =()=>{
     return(
-        <YokomoBanWrap>
+        <YokomoWrap>
         <YokomoBanner />
-        </YokomoBanWrap>
+        <YokomoItems />
+        </YokomoWrap>
     )
 }
 export default YokomoBody

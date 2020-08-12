@@ -11,6 +11,7 @@ justify-content: center;
 align-items: center;
 position: relative;
 background: rgba(75, 0, 130, 0.5);
+border-radius: 20px;
 
 h1{
    color: white;
@@ -21,7 +22,7 @@ h1{
 const YokomoBanner = ()=>{
     return(
         <YokomoBannerDiv>
-        <h1>Yokomo Products:</h1>
+        <h1>Yokomo Batteries:</h1>
         </YokomoBannerDiv>
     )
 }
