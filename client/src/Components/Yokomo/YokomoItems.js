@@ -10,6 +10,7 @@ flex-direction: row;
 
  div{
   border: 2px solid black;
+  margin: 10px 10px;
      
  }
 `;
