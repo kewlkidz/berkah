@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 import yokomoData from '../../Data/Yokomo';
 
@@ -19,19 +20,25 @@ const Image = styled.img `
 width: 200px;
 height: 200px;
 `;
-const YokomoItems =()=>{
-    const data=yokomoData;
-    console.log(data[0])
+
+const YokomoItems = ()=>{
+    const [yokoData, setYokoData]=useState([]);
+    useEffect(()=>{
+        setYokoData(yokomoData)
+    },[])
+
+    
     return(
         <ImageDiv>
        
-            {data.map((item)=>(
-                    <div key={item.id}>
+            {yokoData.map((item)=>(
+                 <Link to={`/items/${item.id}`} ><div key={item.id}>
                 <Image src={item.imageUrl}></Image>
                 <p>Jis: {item.jis}</p>
                 <p>New Jis: {item.newJis}</p>
                 <p>Volts: {item.volt}V</p>
                 </div>
+                </Link>
                
             ))}
     
