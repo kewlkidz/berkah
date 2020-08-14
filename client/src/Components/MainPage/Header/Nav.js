@@ -19,7 +19,7 @@ const Nav = ()=>{
             <Link to={`/`}><div>Home</div></Link>
             <Link to={`/`}><div>About</div></Link>
             <Link to={`/yokomo`}><div>Yokomo Batteries</div></Link>
-            <Link to={`/`}><div>Contact</div></Link>
+            <Link to={`/contact`}><div>Contact</div></Link>
             </NavCont>
         </div>
     )
