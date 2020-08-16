@@ -4,6 +4,7 @@ import MainPage from './Components/MainPage/MainPage';
 import YokomoPage from './Components/Yokomo/YokomoPage';
 import { Route } from 'react-router-dom';
 import YokomoItem from './Components/Yokomo/YokomoItem';
+import ContactUs from './Components/ContactUs';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
      </Route>
      <Route exact path ="/yokomo">
      <YokomoPage />
+     </Route>
+     <Route exact path ="/contact">
+       <ContactUs />
      </Route>
     </div>
   );
