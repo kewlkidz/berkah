@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 
-const ContactUs = (props) => {
+const ContactUs = () => {
 
     //Creating a state variable for DRYer code.
     const emptyData = {
@@ -19,7 +19,7 @@ const ContactUs = (props) => {
     //Creating POST request using Axios when form is submitted using formSubmit function
     const formSubmit = (e) => {
         e.preventDefault();
-        console.log("Form submitted!")
+        axios.post('/api/form', form)
     }
 
     //Creating onChange function to hook up state with new input 
