@@ -36,7 +36,7 @@ const YokomoItems = ()=>{
         
        
         {yokoData.map((item)=>(
-             <Link to={`/items/${item.id}/${item.jis}/${item.newJis}`} >
+             <Link to={`/items/${item.id}/${item.jis}/${item.newJis}/${item.volt}/${item.numberOfPlateCel}/${item.ahCapacity20HrsRate}/${item.reserveCapacityMinutes}/${item.approxAcidVolLitres}/${item.lengthMm}/${item.widthhMm}/${item.heightMm}/${item.th}/${item.assemblyLayout}/${item.AcidFillingTropicalClimate27C}/${item.AcidFillingTemperateClimate27C}/${item.chargingRateAmps}`} >
                  <YokomoItem yokoItem={item} key={item.id}/>
                  
             </Link>
@@ -44,6 +44,8 @@ const YokomoItems = ()=>{
         ))}
 
 </div>
+
+
 
        
     )

@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <Route path="/items/:id/:jis/:newJis" >
+      <Route path="/items/:id/:jis/:newJis/:volt/:numberOfPlateCel/:ahCapacity20HrsRate/:reserveCapacityMinutes/:approxAcidVolLitres/:lengthMm/:widthMm/:heightMm/:th/:assemblyLayout/:AcidFillingTropicalClimate27C/:AcidFillingTemperateClimate27C/:chargingRateAmps" >
         <ItemDetails  />
      </Route>
       <Route exact path ="/">

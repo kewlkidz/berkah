@@ -9,7 +9,24 @@ const ItemDetails = (props) => {
     const [item, setItem] = useState();
 
 
-    const  { id, jis, newJis } = useParams();
+    const  { 
+        id, 
+        jis, 
+        newJis, 
+        volt, 
+        numberOfPlateCel, 
+        ahCapacity20HrsRate, 
+        reserveCapacityMinutes,
+        approxAcidVolLitres,
+        lengthMm,
+        widthMm,
+        heightMm,
+        th,
+        assemblyLayout,
+        AcidFillingTropicalClimate27C,
+        AcidFillingTemperateClimate27C,
+        chargingRateAmps
+    } = useParams();
 
     console.log('This is my params', newJis)   
 
@@ -32,6 +49,19 @@ const ItemDetails = (props) => {
         <p>{id}</p>
         <p>{jis}</p>
         <p>{newJis}</p>
+        <p>{volt}</p>
+        <p>{numberOfPlateCel}</p>
+        <p>{ahCapacity20HrsRate}</p>
+        <p>{reserveCapacityMinutes}</p>
+        <p>{approxAcidVolLitres}</p>
+        <p>{lengthMm}</p>
+        <p>{widthMm}</p>
+        <p>{heightMm}</p>
+        <p>{th}</p>
+        <p>{assemblyLayout}</p>
+        <p>{AcidFillingTropicalClimate27C}</p>
+        <p>{AcidFillingTemperateClimate27C}</p>
+        <p>{chargingRateAmps}</p>
         {/* <img src={item.image}></img> */}
         </div>
 
@@ -40,3 +70,4 @@ const ItemDetails = (props) => {
 }
 
 export default ItemDetails;
+
