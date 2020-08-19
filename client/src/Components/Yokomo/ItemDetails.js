@@ -9,30 +9,30 @@ const ItemDetails = (props) => {
     const [item, setItem] = useState();
 
 
-    const  params = useParams();
-    console.log('This is my params', params)   
+    const  { id, jis, newJis } = useParams();
 
-    useEffect(() => {
+    console.log('This is my params', newJis)   
 
-        const id = params.id;   
-        setItem(id) 
-    //     // fetch(`/Users/angelynaliem/berkah/client/src/Data/Yokomo/${id}`)
-    //     // .then(response => {
-    //     //   setItemDetails(response.data);
-    //     //   console.log(response.data)
-   
-    //     // })
-    //     // .catch(error => {
-    //     //   console.error(error);
-    //     // });
+    // useEffect(() => {
+
+    //     setItem(
+    //         id: id,
+    //         jis: jis,
+    //         newJis: newJis,
+    //         // image: imageUrl
+    //     ) 
+
     
-        },[params.id]);
+    //     },[item]);
 
 
     return (
         <div>
         <h1>product card goes here</h1>
-        <p>{item}</p>
+        <p>{id}</p>
+        <p>{jis}</p>
+        <p>{newJis}</p>
+        {/* <img src={item.image}></img> */}
         </div>
 
     )

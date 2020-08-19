@@ -36,7 +36,7 @@ const YokomoItems = ()=>{
         
        
         {yokoData.map((item)=>(
-             <Link to={`/items/${item.id}`} >
+             <Link to={`/items/${item.id}/${item.jis}/${item.newJis}`} >
                  <YokomoItem yokoItem={item} key={item.id}/>
                  
             </Link>
