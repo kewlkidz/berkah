@@ -44,3 +44,21 @@
 .subjectLabel {
   margin-top: 2%;
 }
+
+
+/* carousel 3 dots */
+.ddKTgF {
+  background-color: #0077be80 !important;
+  box-shadow: 0 0 1px 3px #0077be !important;
+}
+
+/* right and left  button */
+.kwiQYT {
+background-color: #0077be1a !important;
+box-shadow: 0 0 2px 0px #333;
+}
+
+.kwiQYT:hover {
+  background-color: #0077be !important;
+  box-shadow: 0 0 2px 0px #333;
+  }
