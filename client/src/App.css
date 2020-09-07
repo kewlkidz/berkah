@@ -47,18 +47,18 @@
 
 
 /* carousel 3 dots */
-.ddKTgF {
+.ddKTgF, .kraBFZ {
   background-color: #0077be80 !important;
   box-shadow: 0 0 1px 3px #0077be !important;
 }
 
 /* right and left  button */
-.kwiQYT {
+.kwiQYT, .CaWodS {
 background-color: #0077be1a !important;
 box-shadow: 0 0 2px 0px #333;
 }
 
-.kwiQYT:hover {
+.kwiQYT:hover, .CaWodS:hover {
   background-color: #0077be !important;
   box-shadow: 0 0 2px 0px #333;
   }
