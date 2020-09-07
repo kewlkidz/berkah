@@ -22,7 +22,7 @@ const Card = styled.div`
 /* carousel will replace the 3 images below */
 const BodyCarousel = () => {
 	return (
-		<Carousel>
+		<Carousel className="">
 			<Card>
 				<img src={image} alt="battery placeholder" />
 			</Card>

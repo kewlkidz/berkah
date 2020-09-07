@@ -1,27 +1,27 @@
-import React from 'react';
-import Logo from './Logo';
-import styled from 'styled-components';
-import Nav from './Nav';
-import SearchBar from './SearchBar';
+import React from "react";
+import Logo from "./Logo";
+import styled from "styled-components";
+import Nav from "./Nav";
+import SearchBar from "./SearchBar";
 
-const HeaderDiv = styled.div `
-padding: 20px;
-display: flex;
-align-items: center;
-background-color:  #4B0082;
+const HeaderDiv = styled.div`
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	background-color: #4b0082;
 `;
 
-const Header = ()=>{
-    return(
-        <HeaderDiv>
-        <Logo />
-        <Nav />
-        
-        <SearchBar />
+const Header = (props) => {
+	const { searchValue, setSearchValue, test } = props;
+	console.log("test in header", test);
+	return (
+		<HeaderDiv>
+			<Logo />
+			<Nav />
 
-        </HeaderDiv>
+			<SearchBar searchValue={searchValue} setSearchValue={setSearchValue} test={test} />
+		</HeaderDiv>
+	);
+};
 
-    )
-}
-
-export default Header
+export default Header;

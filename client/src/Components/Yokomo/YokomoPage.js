@@ -1,30 +1,73 @@
-import React from 'react';
-import Header from '../MainPage/Header/Header';
-import Footer from '../MainPage/Footer/Footer';
-import YokomoBody from './YokomoBody'
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import Header from "../MainPage/Header/Header";
+import Footer from "../MainPage/Footer/Footer";
+import YokomoBody from "./YokomoBody";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+
+const ItemsDiv = styled.div`
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* border: 2px solid red; */
+	.itemCard {
+		width: 250px;
+		height: 250px;
+		/* border: 2px solid green; */
+		padding: 2%;
+	}
+
+	img {
+		width: 50%;
+	}
+`;
 
 const YokomoPage = (props) => {
-    console.log(props);
+	const { searchValue } = props;
+	const [test, setTest] = useState("this is test from YokomoPage");
+	console.log("Yokomopage props", props);
 
-    return(
-        <div>
-     <Header />
-     {props.items.map(item => (
-         <Link to={`/yokomo/${item.id}`}>
-             <div key={item.id}>
-                 <img
-                 src={item.imageUrl}
-                 alt={item.jis}
-                 />
-                 <p>{item.jis}</p>
-                 <p>{item.newJis}</p>
-             </div>
-         </Link>
-     ))}
-     {/* <YokomoBody /> */}
-     <Footer />
-    </div>
-    )
-}
-export default YokomoPage
+	return (
+		<div>
+			{/* <Header searchValue={searchValue} setSearchValue={setSearchValue} test={test} /> */}
+			<ItemsDiv>
+				{props.items &&
+					props.items
+						.filter((item) => {
+							console.log("approxAcidVolLitres", item.approxAcidVolLitres);
+							return (
+								item.id.toString().includes(searchValue.toString()) ||
+								item.newJis.toString().includes(searchValue.toString()) ||
+								item.jis
+									.toString()
+									.toLowerCase()
+									.includes(searchValue.toString().toLowerCase()) ||
+								item.volt.toString().includes(searchValue.toString()) ||
+								item.numberOfPlateCel.toString().includes(searchValue.toString()) ||
+								item.ahCapacity20HrsRate.toString().includes(searchValue.toString()) ||
+								item.reserveCapacityMinutes.toString().includes(searchValue.toString()) ||
+								item.lengthMm.toString().includes(searchValue.toString()) ||
+								item.widthMm.toString().includes(searchValue.toString()) ||
+								item.heightMm.toString().includes(searchValue.toString()) ||
+								item.approxAcidVolLitres.includes(searchValue) ||
+								item.th.toString().includes(searchValue.toString()) ||
+								item.assemblyLayout.toString().includes(searchValue.toString())
+							);
+						})
+						.map((item) => (
+							<Link to={`/yokomo/${item.id}`}>
+								<div className="itemCard" key={item.id}>
+									<img src={item.imageUrl} alt={item.jis} />
+									<p>{item.jis}</p>
+									<p>{item.newJis}</p>
+								</div>
+							</Link>
+						))}
+				{/* <YokomoBody /> */}
+			</ItemsDiv>
+			<Footer />
+		</div>
+	);
+};
+export default YokomoPage;
