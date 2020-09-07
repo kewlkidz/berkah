@@ -38,8 +38,8 @@ const Contact = (props) => {
 
         name: yup.string().required("Full name is required"),
         email: yup.string().email("Must be a valid email").required("Email address is required"),
-        // subject: yup.string().required("Subject is required"),
-        // message: yup.string().required("Message is required"),
+        subject: yup.string(),
+        message: yup.string(),
 
     })
 
