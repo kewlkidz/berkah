@@ -7,6 +7,7 @@ import YokomoItem from "./Components/Yokomo/YokomoItem";
 import yokomoData from "./Data/Yokomo";
 import Header from "./Components/MainPage/Header/Header";
 import Contact from './Components/Contact';
+import Footer from "./Components/MainPage/Footer/Footer";
 
 function App() {
 	const [products, setProducts] = useState(yokomoData);
@@ -39,6 +40,7 @@ function App() {
 					<MainPage />
 				</Route>
 			</Switch>
+			<Footer />
 		</div>
 	);
 }

@@ -5,7 +5,7 @@ const LogoDiv = styled.div `
  display: flex;
 
     h1{
-        color:  #000080;
+        color:  #0077be;
         font-size: 1.6rem;
         background:yellow;
         width: 35px;

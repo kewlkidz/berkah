@@ -6,7 +6,7 @@ const FooterCont = styled.div `
 display: flex;
 align-items: center;
 justify-content: center;
-background-color:  #4B0082;
+background-color:  #0077be;
 position: fixed;
 bottom: 0;
 width:100%
