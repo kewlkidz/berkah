@@ -35,7 +35,7 @@ const Contact = (props) => {
     const formSchema = yup.object().shape({
 
         name: yup.string().required("Full name is required"),
-        email: yup.string().email("Must be a valid email").required("Email address is required"),
+        email: yup.string().required("Email address is required"),
         subject: yup.string().required("Subject is required"),
         message: yup.string().required("Message is required"),
 
@@ -123,12 +123,15 @@ const Contact = (props) => {
 
     return (
 
+        <div>
+            <h1>Contact Us</h1>
+
         <Form onSubmit = {formSubmit} >
             {serverError ? <p>{serverError}</p> : null}
 
             <FormGroup>
             <Label htmlFor="name">
-                Full Name
+                Full Name*
                 <Input
                     id = "name"
                     type = "text"
@@ -144,7 +147,7 @@ const Contact = (props) => {
 
             <FormGroup>
             <Label htmlFor="email">
-                Email
+                Email*
                 <Input 
                     id = "email"
                     type = "email"
@@ -160,7 +163,7 @@ const Contact = (props) => {
 
             <FormGroup>
             <Label htmlFor = "subject">
-                Subject
+                Subject*
                 <Input
                     id = "subject"
                     type = "subject"
@@ -177,7 +180,7 @@ const Contact = (props) => {
 
             <FormGroup>
             <Label htmlFor = "message">
-                Message
+                Message*
                 <textarea
                     id = "message"
                     type = "message"
@@ -203,6 +206,8 @@ const Contact = (props) => {
             {/* <pre>{JSON.stringify(post, null, 2)}</pre>  */}
 
         </Form>
+        <h6>* required</h6>
+        </div>
       
     );
 }
