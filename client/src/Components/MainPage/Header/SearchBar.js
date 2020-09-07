@@ -6,7 +6,14 @@ const FormCont = styled.form`
 	position: absolute;
 	right: 0;
 	padding: 0 20px;
+	input{
+		border-radius: 20px;
+		width: 20vh;
+		height: 4vh;
+		background-color: yellow;
+	}
 `;
+
 
 const SearchBar = (props) => {
 	const { searchValue, setSearchValue, test } = props;
@@ -20,7 +27,7 @@ const SearchBar = (props) => {
 		<FormCont>
 			<input
 				type="text"
-				placeholder="Search"
+				placeholder="Product Search"
 				value={searchValue}
 				onChange={onInputChange}
 			></input>
