@@ -22,7 +22,7 @@ const Nav = ()=>{
             <Link style={{textDecoration:'none'}} to={`/`}><div>Home</div></Link>
             <Link style={{textDecoration:'none'}} to={`/`}><div>About</div></Link>
             <Link style={{textDecoration:'none'}} to={`/yokomo`}><div>Yokomo Batteries</div></Link>
-            <Link style={{textDecoration:'none'}} to={`/`}><div>Contact</div></Link>
+            <Link style={{textDecoration:'none'}} to={`/contact`}><div>Contact</div></Link>
             </NavCont>
         </div>
     )
