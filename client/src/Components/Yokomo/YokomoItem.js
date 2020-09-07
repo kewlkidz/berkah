@@ -44,8 +44,9 @@ const YokomoItem = (props) => {
 			<YokomoItemDiv>
 				<div className="innerDiv">
 					<div className="itemInfo">
-						<h2>JIS: {shopItem.jis}</h2>
-						<h4>New JIS: {shopItem.newJis}</h4>
+						<h3>JIS: {shopItem.jis}</h3>
+						<h3>New JIS: {shopItem.newJis}</h3>
+						<h3>DIN: {shopItem.din}</h3>
 						<h4>Volt: {shopItem.volt}</h4>
 						<h4>Number of PlateCel: {shopItem.numberOfPlateCel}</h4>
 						<h4>AH Capacity 20 Hours Rate: {shopItem.ahCapacity20HrsRate}</h4>

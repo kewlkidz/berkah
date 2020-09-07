@@ -10,8 +10,9 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 position: relative;
-background: rgba(75, 0, 130, 0.5);
+background: #0077be;
 border-radius: 20px;
+left: 500px;
 
 h1{
    color: white;

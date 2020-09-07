@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import Header from "../MainPage/Header/Header";
-import Footer from "../MainPage/Footer/Footer";
-import YokomoBody from "./YokomoBody";
+
+import YokomoBanner from './YokomoBanner';
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -10,7 +9,6 @@ const ItemsDiv = styled.div`
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-	/* border: 2px solid red; */
 	.itemCard {
 		width: 250px;
 		height: 250px;
@@ -30,6 +28,7 @@ const YokomoPage = (props) => {
 
 	return (
 		<div>
+			<YokomoBanner />
 			{/* <Header searchValue={searchValue} setSearchValue={setSearchValue} test={test} /> */}
 			<ItemsDiv>
 				{props.items &&
@@ -60,13 +59,13 @@ const YokomoPage = (props) => {
 								<div className="itemCard" key={item.id}>
 									<img src={item.imageUrl} alt={item.jis} />
 									<p>{item.jis}</p>
-									<p>{item.newJis}</p>
+									<p>{item.din}</p>
 								</div>
 							</Link>
 						))}
-				{/* <YokomoBody /> */}
+				
 			</ItemsDiv>
-			<Footer />
+			
 		</div>
 	);
 };

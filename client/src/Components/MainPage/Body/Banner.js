@@ -10,7 +10,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 position: relative;
-background: rgba(75, 0, 130, 0.5);
+background: #0077be;;
 
 h2,p{
    color: white;

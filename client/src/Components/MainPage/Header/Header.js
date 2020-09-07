@@ -8,7 +8,7 @@ const HeaderDiv = styled.div`
 	padding: 20px;
 	display: flex;
 	align-items: center;
-	background-color: #4b0082;
+	background-color: #0077be;
 `;
 
 const Header = (props) => {
