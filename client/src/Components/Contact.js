@@ -4,6 +4,8 @@ import * as yup from 'yup';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import * as emailjs from 'emailjs-com';
 
+import "../App.css";
+
 
 const Contact = (props) => {
 
@@ -35,9 +37,9 @@ const Contact = (props) => {
     const formSchema = yup.object().shape({
 
         name: yup.string().required("Full name is required"),
-        email: yup.string().required("Email address is required"),
-        subject: yup.string().required("Subject is required"),
-        message: yup.string().required("Message is required"),
+        email: yup.string().email("Must be a valid email").required("Email address is required"),
+        // subject: yup.string().required("Subject is required"),
+        // message: yup.string().required("Message is required"),
 
     })
 
@@ -46,7 +48,7 @@ const Contact = (props) => {
 
         yup
         .reach(formSchema, e.target.name)
-        .validate(e.target.name === e.target.value)
+        .validate(e.target.name ? e.target.value : null)
         .then(valid => {
             setErrors({
                 ...errors,
@@ -137,7 +139,7 @@ const Contact = (props) => {
                     type = "text"
                     name = "name"
                     data-cy = "name"
-                    placeholder = "Your full name goes here"
+                    placeholder = "Your full name"
                     value = {form.name}
                     onChange = {inputChange}
                     />
@@ -145,7 +147,7 @@ const Contact = (props) => {
             </Label>
             </FormGroup>
 
-            <FormGroup>
+            <FormGroup className="emailLabel">
             <Label htmlFor="email">
                 Email*
                 <Input 
@@ -153,7 +155,7 @@ const Contact = (props) => {
                     type = "email"
                     name = "email"
                     data-cy = "email"
-                    placeholder = "Your email address goes here"
+                    placeholder = "test@gmail.com"
                     value = {form.email}
                     onChange = {inputChange}
                     />
@@ -161,9 +163,9 @@ const Contact = (props) => {
             </Label>
             </FormGroup>
 
-            <FormGroup>
-            <Label htmlFor = "subject">
-                Subject*
+            <FormGroup className="subjectLabel">
+            <Label htmlFor = "subject" >
+                Subject
                 <Input
                     id = "subject"
                     type = "subject"
@@ -180,7 +182,7 @@ const Contact = (props) => {
 
             <FormGroup>
             <Label htmlFor = "message">
-                Message*
+                Message
                 <textarea
                     id = "message"
                     type = "message"
