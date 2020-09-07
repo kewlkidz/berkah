@@ -6,6 +6,7 @@ import { Link, Route, Switch } from "react-router-dom";
 import YokomoItem from "./Components/Yokomo/YokomoItem";
 import yokomoData from "./Data/Yokomo";
 import Header from "./Components/MainPage/Header/Header";
+import Contact from './Components/Contact';
 
 function App() {
 	const [products, setProducts] = useState(yokomoData);
@@ -30,6 +31,9 @@ function App() {
 						);
 					}}
 				/>
+        <Route exact path ="/contact">
+          <Contact />
+        </Route>
 
 				<Route exact path="/">
 					<MainPage />

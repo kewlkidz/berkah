@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.emailLabel {
+  margin-top: 2%;
+}
+
+.subjectLabel {
+  margin-top: 2%;
+}
