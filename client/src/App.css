@@ -53,12 +53,12 @@
 }
 
 /* right and left  button */
-.kwiQYT, .CaWodS {
+.kwiQYT, .fnKDAt, .fnJefD {
 background-color: #0077be1a !important;
 box-shadow: 0 0 2px 0px #333;
 }
 
-.kwiQYT:hover, .CaWodS:hover {
+.kwiQYT:hover, .fnKDAt:hover, .fnJefD:hover {
   background-color: #0077be !important;
   box-shadow: 0 0 2px 0px #333;
   }
