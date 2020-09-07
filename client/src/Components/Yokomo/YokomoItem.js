@@ -6,7 +6,10 @@ import Header from "../MainPage/Header/Header";
 
 const YokomoItemDiv = styled.div`
 	width: 80vw;
-	margin: 0 auto;
+	margin: 25px auto;
+	-webkit-box-shadow: -5px 3px 1px 11px #0077be;
+		-moz-box-shadow: -5px 3px 1px 11px #0077be;
+		box-shadow: -5px 3px 21px 1px #0077be;
 
 	.innerDiv {
 		display: flex;

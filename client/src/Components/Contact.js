@@ -3,9 +3,28 @@ import axios from 'axios';
 import * as yup from 'yup';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import * as emailjs from 'emailjs-com';
-
+import styled from 'styled-components';
 import "../App.css";
 
+
+const FormContainer = styled.div `
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+// margin:20px 0;
+width: 80vw;
+	margin: 20px auto;
+-webkit-box-shadow: -5px 3px 21px 11px #0077be;
+		-moz-box-shadow: -5px 3px 21px 11px #0077be;
+		box-shadow: -5px 3px 21px 11px #0077be;
+
+Input,TextArea{
+    margin:5px 0;
+    background-color:yellow;
+}
+
+`
 
 const Contact = (props) => {
 
@@ -125,7 +144,7 @@ const Contact = (props) => {
 
     return (
 
-        <div>
+        <FormContainer>
             <h1>Contact Us</h1>
 
         <Form onSubmit = {formSubmit} >
@@ -133,7 +152,7 @@ const Contact = (props) => {
 
             <FormGroup>
             <Label htmlFor="name">
-                Full Name*
+                <p>Full Name* </p>
                 <Input
                     id = "name"
                     type = "text"
@@ -149,7 +168,7 @@ const Contact = (props) => {
 
             <FormGroup className="emailLabel">
             <Label htmlFor="email">
-                Email*
+               <p> Email* </p>
                 <Input 
                     id = "email"
                     type = "email"
@@ -165,7 +184,7 @@ const Contact = (props) => {
 
             <FormGroup className="subjectLabel">
             <Label htmlFor = "subject" >
-                Subject
+               <p> Subject </p>
                 <Input
                     id = "subject"
                     type = "subject"
@@ -182,7 +201,7 @@ const Contact = (props) => {
 
             <FormGroup>
             <Label htmlFor = "message">
-                Message
+               <p> Message</p>
                 <textarea
                     id = "message"
                     type = "message"
@@ -208,8 +227,8 @@ const Contact = (props) => {
             {/* <pre>{JSON.stringify(post, null, 2)}</pre>  */}
 
         </Form>
-        <h6>* required</h6>
-        </div>
+        <h5>* required</h5>
+        </FormContainer>
       
     );
 }

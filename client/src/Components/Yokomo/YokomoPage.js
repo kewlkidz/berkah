@@ -9,6 +9,8 @@ const ItemsDiv = styled.div`
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: wrap;
+	
+	
 	.itemCard {
 		width: 250px;
 		height: 250px;
@@ -55,7 +57,7 @@ const YokomoPage = (props) => {
 							);
 						})
 						.map((item) => (
-							<Link to={`/yokomo/${item.id}`}>
+							<Link style={{textDecoration:'none'}} to={`/yokomo/${item.id}`}>
 								<div className="itemCard" key={item.id}>
 									<img src={item.imageUrl} alt={item.jis} />
 									<p>{item.jis}</p>
