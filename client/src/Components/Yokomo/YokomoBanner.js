@@ -25,6 +25,14 @@ h1{
  }
      
     }
+@media (max-width: 768px){
+    left: 280px;
+    margin: 40px 0;
+    h1{
+        font-size:1.2rem;
+    }
+        
+    }
 `;
 
 const YokomoBanner = ()=>{

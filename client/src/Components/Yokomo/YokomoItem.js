@@ -39,6 +39,14 @@ const YokomoItemDiv = styled.div`
 		}
 		
 	}
+
+	@media (max-width: 768px){
+		
+		.itemInfo{
+			width: 100%;
+		}
+		
+	}
 `;
 
 const YokomoItem = (props) => {

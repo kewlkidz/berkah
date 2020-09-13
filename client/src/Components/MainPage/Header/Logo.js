@@ -32,6 +32,19 @@ const LogoDiv = styled.div `
             }
     
     }
+
+    @media (max-width: 768px){
+        h1{
+            font-size: 1.2rem;
+        }
+        h2{
+            display:none;
+        }
+        
+         
+        }
+        
+        }
 `;
 
 const Logo = ()=>{
