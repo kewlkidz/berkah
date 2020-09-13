@@ -21,7 +21,7 @@ const LogoDiv = styled.div `
         padding: 0 20px;
         color: white;
     }
-    @media (max-width: 640px){
+    @media (min-width: 640px){
         h1{
         font-size: 1rem;
         width: 30px;
@@ -33,7 +33,7 @@ const LogoDiv = styled.div `
     
     }
 
-    @media (max-width: 768px){
+    @media (min-width: 768px){
         h1{
             font-size: 1.2rem;
         }

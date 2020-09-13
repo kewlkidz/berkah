@@ -18,14 +18,14 @@ h1{
    color: white;
     
 }
-@media (max-width: 640px){
+@media (min-width: 640px){
     left: 230px;
  h1{
      font-size:1rem;
  }
      
     }
-@media (max-width: 768px){
+@media (min-width: 768px){
     left: 280px;
     margin: 40px 0;
     h1{

@@ -32,7 +32,7 @@ const YokomoItemDiv = styled.div`
 		font-size: 2rem;
 	}
 
-	@media (max-width: 640px){
+	@media (min-width: 640px){
 		
 		.itemInfo{
 			width: 100%;
@@ -40,7 +40,7 @@ const YokomoItemDiv = styled.div`
 		
 	}
 
-	@media (max-width: 768px){
+	@media (min-width: 768px){
 		
 		.itemInfo{
 			width: 100%;
