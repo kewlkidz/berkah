@@ -33,7 +33,12 @@ Input,TextArea{
 }
 
 
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {
+    width: 60vw;
+    h1{
+        font-size:1rem;
+    }
+}
 
 
 @media only screen and (min-width: 768px) {...}

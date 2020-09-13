@@ -20,6 +20,10 @@ const FormCont = styled.form`
 	
 	@media only screen and (min-width: 600px) {
 		display:flex;
+		input{
+			
+			width: 25vh;
+		}
 	}
 	
 	

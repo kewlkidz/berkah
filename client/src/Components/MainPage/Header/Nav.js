@@ -18,11 +18,14 @@ display: flex;
 @media only screen and (max-width: 600px) {
     font-size: 15px;
     padding:5px;
-    }
+    
 }
 
 
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {
+    font-size: 12px;
+    padding:5px;
+}
 
 
 @media only screen and (min-width: 768px) {...}

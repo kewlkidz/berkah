@@ -35,10 +35,12 @@ const LogoDiv = styled.div `
     @media only screen and (min-width: 600px) {
         h1{
             display:flex;
-            font-size: 1.2rem;
+            font-size: 1rem;
+            width: 25px;
+            height: 25px;
         }
         h2{
-            // display:none;
+            font-size: 1rem;
         }
         
          
