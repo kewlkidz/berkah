@@ -27,7 +27,12 @@ const FormCont = styled.form`
 	}
 	
 	
-	@media only screen and (min-width: 768px) {...}
+	@media only screen and (min-width: 768px) {
+		input{
+			width: 15vh;
+			height: 3vh;
+		}
+	}
 	
 	
 	@media only screen and (min-width: 992px) {...}
