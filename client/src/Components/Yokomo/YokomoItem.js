@@ -31,6 +31,14 @@ const YokomoItemDiv = styled.div`
 	h2 {
 		font-size: 2rem;
 	}
+
+	@media (max-width: 640px){
+		
+		.itemInfo{
+			width: 100%;
+		}
+		
+	}
 `;
 
 const YokomoItem = (props) => {

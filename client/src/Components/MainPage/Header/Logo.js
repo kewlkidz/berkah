@@ -21,6 +21,17 @@ const LogoDiv = styled.div `
         padding: 0 20px;
         color: white;
     }
+    @media (max-width: 640px){
+        h1{
+        font-size: 1rem;
+        width: 30px;
+        height:30px;
+        }
+        h2{
+            display:none;
+            }
+    
+    }
 `;
 
 const Logo = ()=>{

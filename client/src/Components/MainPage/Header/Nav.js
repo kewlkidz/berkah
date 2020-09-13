@@ -12,6 +12,7 @@ display: flex;
      &:hover{
         color: yellow;
     }
+    
  }
 `;
 //nav links just temp place holder until get ready for routing

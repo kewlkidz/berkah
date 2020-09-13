@@ -18,6 +18,13 @@ h1{
    color: white;
     
 }
+@media (max-width: 640px){
+    left: 230px;
+ h1{
+     font-size:1rem;
+ }
+     
+    }
 `;
 
 const YokomoBanner = ()=>{
