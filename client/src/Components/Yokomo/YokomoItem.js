@@ -45,7 +45,16 @@ const YokomoItemDiv = styled.div`
 }
 
 
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {
+	.itemInfo{
+		width: 100%;
+		font-size:.8rem;
+		}
+		.imgDiv{
+			display: flex;
+		}
+	}
+}
 
 
 @media only screen and (min-width: 768px) {...}

@@ -18,7 +18,9 @@ const FormCont = styled.form`
 	}
 	
 	
-	@media only screen and (min-width: 600px) {...}
+	@media only screen and (min-width: 600px) {
+		display:flex;
+	}
 	
 	
 	@media only screen and (min-width: 768px) {...}

@@ -32,18 +32,36 @@ const LogoDiv = styled.div `
     
     }
 
+    @media only screen and (min-width: 600px) {
+        h1{
+            display:flex;
+            font-size: 1.2rem;
+        }
+        h2{
+            // display:none;
+        }
+        
+         
+        }
+    }
+
     @media only screen and (min-width: 768px){
         h1{
             font-size: 1.2rem;
         }
         h2{
-            display:none;
+            // display:none;
         }
         
          
         }
         
         }
+
+    @media only screen and (min-width: 992px) {...}
+
+
+    @media only screen and (min-width: 1200px) {...}
 `;
 
 const Logo = ()=>{

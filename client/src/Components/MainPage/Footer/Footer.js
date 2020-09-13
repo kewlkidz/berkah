@@ -13,11 +13,13 @@ width:100%;
 
 @media only screen and (max-width: 600px) {
     font-size: .4rem;
-    }
+    
 }
 
 
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {
+    font-size: .7rem;
+}
 
 
 @media only screen and (min-width: 768px) {...}
