@@ -23,7 +23,7 @@ display: flex;
 
 
 @media only screen and (min-width: 600px) {
-    font-size: 12px;
+    font-size: .7rem;
     padding:5px;
 }
 

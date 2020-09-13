@@ -22,7 +22,8 @@ const FormCont = styled.form`
 		display:flex;
 		input{
 			
-			width: 25vh;
+			width: 15vh;
+			height: 3vh;
 		}
 	}
 	
