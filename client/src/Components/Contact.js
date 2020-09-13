@@ -23,7 +23,26 @@ Input,TextArea{
     margin:5px 0;
     background-color:yellow;
 }
+@media only screen and (max-width: 600px) {
+    width: 60vw;
+    h1{
+        font-size:1rem;
+    }
 
+    
+}
+
+
+@media only screen and (min-width: 600px) {...}
+
+
+@media only screen and (min-width: 768px) {...}
+
+
+@media only screen and (min-width: 992px) {...}
+
+
+@media only screen and (min-width: 1200px) {...}
 `
 
 const Contact = (props) => {

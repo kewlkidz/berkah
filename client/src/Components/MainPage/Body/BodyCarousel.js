@@ -19,6 +19,26 @@ const Card = styled.div`
 		-moz-box-shadow: -5px 3px 21px 11px #0077be;
 		box-shadow: -5px 3px 21px 11px #0077be;
 	}
+
+	@media only screen and (max-width: 600px) {
+		img{
+		width: 150px;
+		height:150px;
+		}
+		}
+	}
+	
+	
+	@media only screen and (min-width: 600px) {...}
+	
+	
+	@media only screen and (min-width: 768px) {...}
+	
+	
+	@media only screen and (min-width: 992px) {...}
+	
+	
+	@media only screen and (min-width: 1200px) {...}
 `;
 /* carousel will replace the 3 images below */
 const BodyCarousel = () => {

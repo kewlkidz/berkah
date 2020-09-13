@@ -12,6 +12,22 @@ const FormCont = styled.form`
 		height: 4vh;
 		background-color: yellow;
 	}
+
+	@media only screen and (max-width: 600px) {
+	display:none;
+	}
+	
+	
+	@media only screen and (min-width: 600px) {...}
+	
+	
+	@media only screen and (min-width: 768px) {...}
+	
+	
+	@media only screen and (min-width: 992px) {...}
+	
+	
+	@media only screen and (min-width: 1200px) {...}
 `;
 
 
