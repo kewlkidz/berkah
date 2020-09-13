@@ -41,7 +41,7 @@ const LogoDiv = styled.div `
             display:none;
         }
         
-         
+        
         }
         
         }
