@@ -28,7 +28,10 @@ Input,TextArea{
     h1{
         font-size:1rem;
     }
-
+    
+    input{
+        padding:8px;
+    }
     
 }
 
@@ -172,7 +175,7 @@ const Contact = (props) => {
     return (
 
         <FormContainer>
-            <h1>Request Price Quote</h1>
+            <h1>Contact Us</h1>
 
         <Form onSubmit = {formSubmit} >
             {serverError ? <p>{serverError}</p> : null}
@@ -211,13 +214,13 @@ const Contact = (props) => {
 
             <FormGroup className="subjectLabel">
             <Label htmlFor = "subject" >
-               <p> Products </p>
+               <p> Subject </p>
                 <Input
                     id = "subject"
                     type = "subject"
                     name = "subject"
                     data-cy = "subject"
-                    placeholder = "List the products you're interested in here"
+                    placeholder = "Your Subject"
                     value = {form.subject}
                     onChange = {inputChange}
                     />
@@ -234,7 +237,7 @@ const Contact = (props) => {
                     type = "message"
                     name = "message"
                     data-cy = "message"
-                    placeholder = "Any additional message"
+                    placeholder = "Your Message"
                     value = {form.message}
                     onChange = {inputChange}
                     />
