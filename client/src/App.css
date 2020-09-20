@@ -62,3 +62,7 @@ box-shadow: 0 0 2px 0px #333;
   background-color: #0077be !important;
   box-shadow: 0 0 2px 0px #333;
   }
+
+  .car{
+    background-color: green;
+  }

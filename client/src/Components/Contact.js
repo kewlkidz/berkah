@@ -38,6 +38,9 @@ Input,TextArea{
     h1{
         font-size:1rem;
     }
+    input{
+        padding:10px;
+    }
 }
 
 

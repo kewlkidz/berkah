@@ -4,6 +4,7 @@ import image from "../../../Data/battery2.jpeg";
 import Carousel from "react-elastic-carousel";
 
 
+
 const Card = styled.div`
 	display: flex;
 	justify-content: center;
@@ -29,7 +30,9 @@ const Card = styled.div`
 	}
 	
 	
-	@media only screen and (min-width: 600px) {...}
+	@media only screen and (min-width: 600px) {
+		
+	}
 	
 	
 	@media only screen and (min-width: 768px) {...}
