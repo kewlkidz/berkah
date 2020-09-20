@@ -9,7 +9,28 @@ justify-content: center;
 background-color:  #0077be;
 position: fixed;
 bottom: 0;
-width:100%
+width:100%;
+
+@media only screen and (max-width: 600px) {
+    font-size: .4rem;
+    
+}
+
+
+@media only screen and (min-width: 600px) {
+    font-size: .7rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+    font-size: 1rem;
+}
+
+
+@media only screen and (min-width: 992px) {...}
+
+
+@media only screen and (min-width: 1200px) {...}
 
 `;
 
