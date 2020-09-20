@@ -22,7 +22,9 @@ width:100%;
 }
 
 
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {
+    font-size: 1rem;
+}
 
 
 @media only screen and (min-width: 992px) {...}

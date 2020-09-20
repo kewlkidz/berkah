@@ -28,7 +28,10 @@ display: flex;
 }
 
 
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {
+    font-size: 1rem;
+    padding:5px;
+}
 
 
 @media only screen and (min-width: 992px) {...}

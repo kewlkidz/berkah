@@ -53,7 +53,7 @@ const LogoDiv = styled.div `
             font-size: 1.2rem;
         }
         h2{
-            // display:none;
+            display:none;
         }
         
          
