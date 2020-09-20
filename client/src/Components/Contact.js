@@ -24,7 +24,7 @@ Input,TextArea{
     background-color:yellow;
 }
 @media only screen and (max-width: 600px) {
-    width: 60vw;
+    height: 80%;
     h1{
         font-size:1rem;
     }
@@ -38,6 +38,8 @@ Input,TextArea{
 
 @media only screen and (min-width: 600px) {
     width: 60vw;
+
+    
     h1{
         font-size:1rem;
     }
