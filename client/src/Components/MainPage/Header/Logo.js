@@ -21,11 +21,10 @@ const LogoDiv = styled.div `
         padding: 0 20px;
         color: white;
     }
-    @media (max-width: 640px){
+    @media only screen and (max-width: 600px){
+        
         h1{
-        font-size: 1rem;
-        width: 30px;
-        height:30px;
+        display:none;
         }
         h2{
             display:none;
@@ -33,7 +32,23 @@ const LogoDiv = styled.div `
     
     }
 
-    @media (max-width: 768px){
+    @media only screen and (min-width: 600px) {
+        h1{
+            display:flex;
+            font-size: .8rem;
+            width: 25px;
+            height: 25px;
+        }
+        h2{
+            font-size: .8rem;
+            padding: 0 10px;
+        }
+        
+         
+        }
+    }
+
+    @media only screen and (min-width: 768px){
         h1{
             font-size: 1.2rem;
         }
@@ -45,6 +60,11 @@ const LogoDiv = styled.div `
         }
         
         }
+
+    @media only screen and (min-width: 992px) {...}
+
+
+    @media only screen and (min-width: 1200px) {...}
 `;
 
 const Logo = ()=>{

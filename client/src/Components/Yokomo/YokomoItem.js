@@ -32,21 +32,38 @@ const YokomoItemDiv = styled.div`
 		font-size: 2rem;
 	}
 
-	@media (max-width: 640px){
+	@media only screen and (max-width: 600px) {
 		
-		.itemInfo{
-			width: 100%;
+    .itemInfo{
+		width: 100%;
+		font-size:.8rem;
 		}
-		
+		.imgDiv{
+			display:none;
+		}
 	}
+}
 
-	@media (max-width: 768px){
-		
-		.itemInfo{
-			width: 99%;
+
+@media only screen and (min-width: 600px) {
+	.itemInfo{
+		width: 100%;
+		font-size:.8rem;
 		}
-		
+		.imgDiv{
+			display: flex;
+		}
 	}
+}
+
+
+@media only screen and (min-width: 768px) {...}
+
+
+@media only screen and (min-width: 992px) {...}
+
+
+@media only screen and (min-width: 1200px) {...}
 `;
 
 const YokomoItem = (props) => {

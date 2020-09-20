@@ -2,26 +2,22 @@ import React from 'react';
 import styled from 'styled-components';
 
 const YokomoBannerDiv = styled.div `
-width: 30%;
-height: 50px;
-margin-top: 20px;
-display:flex;
-flex-direction: column;
-justify-content: center;
+display:inline-block;
+margin: 20px 0;
+width: 200px;
 align-items: center;
-position: relative;
 background: #0077be;
 border-radius: 20px;
-left: 500px;
 
 h1{
+    font-size: 1.2rem;
    color: white;
     
 }
-@media (max-width: 640px){
-    left: 230px;
+@media only screen and (max-width: 600px){
+    
  h1{
-     font-size:1rem;
+    
  }
      
     }

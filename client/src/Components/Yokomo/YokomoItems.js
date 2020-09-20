@@ -14,6 +14,7 @@ flex-direction: row;
   margin: 10px 10px;
      
  }
+
 `;
 
 const Image = styled.img `

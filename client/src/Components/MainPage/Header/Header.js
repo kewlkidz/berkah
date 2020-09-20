@@ -9,6 +9,24 @@ const HeaderDiv = styled.div`
 	display: flex;
 	align-items: center;
 	background-color: #0077be;
+
+	@media only screen and (max-width: 600px) {
+	// display:flex;
+	// flex-direction: row;
+	// padding: 20px 0;
+	}
+	
+	
+	@media only screen and (min-width: 600px) {...}
+	
+	
+	@media only screen and (min-width: 768px) {...}
+	
+	
+	@media only screen and (min-width: 992px) {...}
+	
+	
+	@media only screen and (min-width: 1200px) {...}
 `;
 
 const Header = (props) => {
