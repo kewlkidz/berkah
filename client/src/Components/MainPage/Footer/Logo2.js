@@ -15,10 +15,10 @@ h3,h4{
 const Logo2 =()=>{
     return(
         <FooterLogo>
-        <h3>Burkah Buana</h3>
-        <h4>Address Here</h4>
-        <h4>Tel: 999-999-9999</h4>
-        <h4>Email: Berkah_buana@yahoo.co.id</h4>
+        <h3>Berkah Buana</h3>
+        <h4>Jl. Lautze No. 115/48, Pasar Baru, Jakarta Pusat 10740, Indonesia</h4>
+        <h4>Tel: 021-626-5678</h4>
+        <h4>Email: berkah_buana@yahoo.co.id</h4>
         </FooterLogo>
     )
 }

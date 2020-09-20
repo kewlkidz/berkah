@@ -21,7 +21,7 @@ h2,p{
 const Banner =()=>{
     return (
         <BannerDiv>
-        <h2>Burkah Buana</h2>
+        <h2>Berkah Buana</h2>
         <p>SUPPLIER OF SAFETY EQUIPMENT, TOOLS, TRACTORS AND DIESEL ENGINE PARTS, CONTRACTOR, ELECTRICAL PANEL</p>
         </BannerDiv>
     )

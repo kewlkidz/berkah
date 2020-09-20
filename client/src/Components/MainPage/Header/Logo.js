@@ -52,7 +52,7 @@ const Logo = ()=>{
         
         <LogoDiv>
             <h1>BB</h1>
-            <h2>Burkah Buana</h2>
+            <h2>Berkah Buana</h2>
         </LogoDiv>
         
     )
