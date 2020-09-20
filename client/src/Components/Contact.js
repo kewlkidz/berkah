@@ -145,7 +145,7 @@ const Contact = (props) => {
     return (
 
         <FormContainer>
-            <h1>Contact Us</h1>
+            <h1>Request Price Quote</h1>
 
         <Form onSubmit = {formSubmit} >
             {serverError ? <p>{serverError}</p> : null}
@@ -184,13 +184,13 @@ const Contact = (props) => {
 
             <FormGroup className="subjectLabel">
             <Label htmlFor = "subject" >
-               <p> Subject </p>
+               <p> Product </p>
                 <Input
                     id = "subject"
                     type = "subject"
                     name = "subject"
                     data-cy = "subject"
-                    placeholder = "Your Subject"
+                    placeholder = "List the products you're interested in here"
                     value = {form.subject}
                     onChange = {inputChange}
                     />
@@ -207,7 +207,7 @@ const Contact = (props) => {
                     type = "message"
                     name = "message"
                     data-cy = "message"
-                    placeholder = "Your Message"
+                    placeholder = "Any additional message"
                     value = {form.message}
                     onChange = {inputChange}
                     />
