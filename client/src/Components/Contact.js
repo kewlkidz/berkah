@@ -13,7 +13,7 @@ flex-direction: column;
 justify-content: center;
 align-items:center;
 // margin:20px 0;
-width: 80vw;
+// width: 80vw;
 	margin: 20px auto;
 -webkit-box-shadow: -5px 3px 21px 11px #0077be;
 		-moz-box-shadow: -5px 3px 21px 11px #0077be;
@@ -49,7 +49,16 @@ Input,TextArea{
 }
 
 
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {
+    
+    height: 120vh;
+    width:40vw;
+    
+    h1{
+        font-size:1rem;
+    }
+    
+}
 
 
 @media only screen and (min-width: 992px) {...}

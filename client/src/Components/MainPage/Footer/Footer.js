@@ -18,16 +18,19 @@ width:100%;
 
 
 @media only screen and (min-width: 600px) {
-    font-size: .7rem;
+    font-size: .6rem;
 }
 
 
 @media only screen and (min-width: 768px) {
-    font-size: 1rem;
+    
+    
 }
 
 
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {
+    
+}
 
 
 @media only screen and (min-width: 1200px) {...}
