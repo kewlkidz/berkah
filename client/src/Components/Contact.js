@@ -184,7 +184,7 @@ const Contact = (props) => {
 
             <FormGroup className="subjectLabel">
             <Label htmlFor = "subject" >
-               <p> Product </p>
+               <p> Products </p>
                 <Input
                     id = "subject"
                     type = "subject"
