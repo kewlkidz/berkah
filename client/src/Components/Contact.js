@@ -51,7 +51,8 @@ Input,TextArea{
 
 @media only screen and (min-width: 768px) {
     
-    height: 120vh;
+    // height: 140vh;
+    
     width:40vw;
     
     h1{
